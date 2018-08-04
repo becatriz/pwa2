@@ -16,12 +16,12 @@ const router = new Router({
   	{
   		path: '*',
   		redirect: '/post'
-  	}
+  	},
 
     {
       path: '/',
       name: 'HelloWorld',
-      component: HelloWorld
+      component: HelloWorld,
     },
     {
       path: '/login',
